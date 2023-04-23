@@ -16,3 +16,12 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+#ColtonImage{
+    width: 30%;
+    float: right;
+}
+
+#ColtonIntroduction{
+    padding-right: 100px;
+}
