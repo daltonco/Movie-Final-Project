@@ -1,4 +1,5 @@
-﻿@{
+﻿@model List<Movie>
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -18,7 +19,7 @@
                 <th>Genre</th>
                 <th>Rating</th>
             </tr>
-        </thead>
+        </thead>  
         <tbody>
             @foreach (var movie in Model)
             {
