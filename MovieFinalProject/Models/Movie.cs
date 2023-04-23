@@ -6,7 +6,7 @@ namespace MovieFinalProject.Models
     public class Movie
     {
         //EF Core will configure the database to generate this value
-        public int Id { get; set; }
+        public int MovieId { get; set; }
 
         [Required(ErrorMessage = "Please enter a name.")]
         public string Name { get; set; }  = string.Empty;
