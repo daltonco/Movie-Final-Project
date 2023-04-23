@@ -1,7 +1,22 @@
+using Microsoft.EntityFrameworkCore;
+using MovieFinalProject.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+// Add EF Core DI
+builder.Services.AddDbContext<MovieContext>(options =>
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("MovieContext")));
+
+builder.Services.AddRouting(options =>
+{
+    options.LowercaseUrls = true;
+    options.AppendTrailingSlash = true;
+});
 
 var app = builder.Build();
 
