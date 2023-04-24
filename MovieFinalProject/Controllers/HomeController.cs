@@ -31,7 +31,11 @@ namespace MovieFinalProject.Controllers
             return View();
         }
 
+
         public IActionResult AboutEthan()
+
+        public IActionResult AboutColton()
+
         {
             return View();
         }
