@@ -25,6 +25,11 @@ namespace MovieFinalProject.Controllers
         {
             return View();
         }
+        
+        public IActionResult AboutEthan()
+        {
+            return View();
+        }
 
         public IActionResult AboutEthan()
         {
