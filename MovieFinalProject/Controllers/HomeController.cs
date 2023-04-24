@@ -26,7 +26,7 @@ namespace MovieFinalProject.Controllers
             return View();
         }
 
-        public IActionResult AboutColton()
+        public IActionResult AboutEthan()
         {
             return View();
         }
