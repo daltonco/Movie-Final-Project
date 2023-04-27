@@ -25,3 +25,8 @@ body {
 #ColtonIntroduction{
     padding-right: 100px;
 }
+
+#RishabhImage {
+    width: 30%;
+    float: right;
+}
